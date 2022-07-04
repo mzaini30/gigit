@@ -1,0 +1,4 @@
+{
+  "pre-commit": "echo \"pre commit\"",
+  "pre-push": "echo \"pre push\""
+}

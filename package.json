@@ -1,0 +1,35 @@
+{
+  "name": "gigit",
+  "version": "1.0.0",
+  "description": "Cara mudah mendefinisikan Git Hooks",
+  "bin": {
+    "gigit": "dist/gigit.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx script/pack.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzaini30/gigit.git"
+  },
+  "keywords": [
+    "Git Hooks",
+    "Git"
+  ],
+  "author": "Muhammad Zaini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzaini30/gigit/issues"
+  },
+  "homepage": "https://github.com/mzaini30/gigit#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "esbuild": "^0.14.48",
+    "tsx": "^3.7.1",
+    "zx": "^7.0.7"
+  }
+}
