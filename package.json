@@ -1,5 +1,5 @@
 {
-  "name": "gigit",
+  "name": "@mzaini30/gigit",
   "version": "1.0.0",
   "description": "Cara mudah mendefinisikan Git Hooks",
   "bin": {

@@ -5,7 +5,7 @@ Cara mudah mendefinisikan Git Hooks
 ## Instalasi
 
 ```bash
-npm i -g gigit
+npm i -g @mzaini30/gigit
 ```
 
 ## Cara Pakai
