@@ -5,4 +5,5 @@ esbuild.build({
   outdir: "dist",
   minify: true,
   platform: "node",
+  bundle: true,
 });
